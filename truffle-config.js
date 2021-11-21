@@ -56,7 +56,7 @@ module.exports = {
         mnemonic: {
           phrase: process.env.METAMASK_SEED
         },
-        providerOrUrl: `https://rinkeby.infura.io/v3/${process.env.INFURA_KEY}`
+        providerOrUrl: process.env.INFURA_URL
       }),
       network_id: 4,       // rinkeby's id
       gas: 4500000,        // rinkeby has a lower block limit than mainnet
